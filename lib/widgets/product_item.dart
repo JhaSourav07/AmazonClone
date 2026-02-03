@@ -17,14 +17,14 @@ class ProductItem extends ConsumerWidget {
     final inCart = cartState.any((item) => item.id == product.id);
 
     return GestureDetector(
-      // onTap: () {
-      //   // NAVIGATE TO THE DETAIL SCREEN, PASSING THE PRODUCT
-      //   Navigator.of(context).push(
-      //     MaterialPageRoute(
-      //       builder: (ctx) => ProductDetailScreen(product: product),
-      //     ),
-      //   );
-      // },
+      onTap: () {
+        // NAVIGATE TO THE DETAIL SCREEN, PASSING THE PRODUCT
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (ctx) => ProductDetailScreen(product: product),
+          ),
+        );
+      },
       child: Card(
         elevation: 2,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),

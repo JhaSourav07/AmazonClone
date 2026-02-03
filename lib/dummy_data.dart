@@ -122,4 +122,20 @@ final List<Product> dummyProducts = [
     description: '6mm thick, perfect for yoga, pilates, and floor exercises.',
     rating: 4.5,
   ),
+  Product(
+    id: 'p14',
+    name: 'Professional Quality Yoga Mat with Anti-Slip Technology',
+    imageUrl: 'https://as2.ftcdn.net/v2/jpg/01/43/42/83/1000_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg',
+    price: 899.00,
+    description: '6mm thick, perfect for yoga, pilates, and floor exercises.',
+    rating: 4.5,
+  ),
+  Product(
+    id: 'p14',
+    name: 'Professional Quality Yoga Mat with Anti-Slip Technology',
+    imageUrl: 'https://as2.ftcdn.net/v2/jpg/01/43/42/83/1000_F_143428338_gcxw3Jcd0tJpkvvb53pfEztwtU9sxsgT.jpg',
+    price: 899.00,
+    description: '6mm thick, perfect for yoga, pilates, and floor exercises.',
+    rating: 4.5,
+  ),
 ];
